@@ -1,3 +1,4 @@
+import java.util.Iterator;
 
 public class Fallunterscheidungen {
 
@@ -19,6 +20,25 @@ public class Fallunterscheidungen {
 		System.out.print("Für Alter = " + age);
 		System.out.println(" erfolgt aus:\n\t(age > 18) ? \"Führerschein machenerlaubt\" : \"Noch kein Führerschein erlaubt\"");
 		System.out.println(result);
+		
+		System.out.println("\n--- if, else if und else in Kombination --");
+		int hour;
+		
+		for (hour= 8; hour <= 24; hour += 2) {
+			if (hour < 12) {
+				System.out.println("Good morning");
+				}
+			else if (hour < 18) {
+				System.out.println("Good afternoon");
+			}
+			else if (hour < 22) {
+				System.out.println("Good evening");
+				}
+			else {
+				System.out.println("Good night");
+			}			
+		} 
+		
 	}
 
 }
