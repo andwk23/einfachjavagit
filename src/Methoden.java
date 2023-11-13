@@ -21,6 +21,16 @@ public class Methoden {
 	public static int minOf3(int x, int y, int z) {
 		return min(x, min(y,z));
 	}
+	public static double randomRange(int base, int maxExclusive) {
+		int maxRange = maxExclusive - base;
+		return base + Math.random() * maxRange;	
+	}
+	
+	public static int randomWuerfel(int base, int maxExclusive) {
+		int maxRange = maxExclusive - base;
+		return base + (int)(Math.random() * maxRange);	
+		}
+		
 
 	public static void main(String[] args) {
 		
@@ -63,6 +73,13 @@ public class Methoden {
 		System.out.println("Berechne Math.abs(x) von x = " + (-x) + ": " + Math.abs(-x));
 		double randomNum = Math.random() * 100;
 		System.out.println("Berechnung einer Float-Zufallszahl im Intervall [0,100) mit Math.random(): " + randomNum);
+		System.out.println("Berechnung einer Float-Zufallszahl im Intervall [0,10) mit Methode randomRange(): " + randomRange(0,10));
+		System.out.println("Berechnung einer Float-Zufallszahl im Intervall [15,105) mit Methode randomRange(): " + randomRange(15,105));
+		
+		System.out.println("\n--- Würfelmethode --- ");
+		System.out.println("Es wurde eine " + randomWuerfel(1,6) + " gewürfelt.");
+		
+		
 	}
 
 }
