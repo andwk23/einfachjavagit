@@ -1,4 +1,4 @@
-package Strings;
+package _03_strings;
 
 import javax.swing.plaf.synth.SynthOptionPaneUI;
 

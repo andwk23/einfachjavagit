@@ -1,4 +1,4 @@
-package Strings;
+package _03_strings;
 
 public class GebräuchlicheStringaktionen {
 

@@ -1,4 +1,4 @@
-package Strings;
+package _03_strings;
 
 import java.time.LocalDate;
 import java.util.Arrays;
