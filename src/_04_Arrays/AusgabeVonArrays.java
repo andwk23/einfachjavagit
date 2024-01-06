@@ -27,7 +27,7 @@ public class AusgabeVonArrays {
 		System.out.println("\n--- Ausgabe eines 2-dimensionalem String-Array");
 		printArray(values2);
 		
-		System.out.println("\n--- Ausgabe eines 2-dimensionalem Var-Array");
+		System.out.println("\n--- Ausgabe eines 2-dimensionalem String-Array mit vorgegebner Array-Anzahl");
 		printArray(twodim_special);
 	}
 
